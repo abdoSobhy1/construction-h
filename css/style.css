@@ -742,7 +742,7 @@ img {
   background-color: rgb(31, 31, 31);
   color: #fff;
   padding: 10px 20px;
-  width: min(300px, 80%);
+  width: 300px;
   margin: 0;
 }
 .subs form input.send {
@@ -767,6 +767,9 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .footer form input.email {
+    width: min(300px, 80%);
   }
 }
 @media (max-width: 992px) {
